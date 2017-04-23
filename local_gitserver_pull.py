@@ -2,7 +2,6 @@
 ## For pulling from local git server (HTTP)
 ##
 from git import *
-from getpass import getpass
 import os, shutil
 
 try:
