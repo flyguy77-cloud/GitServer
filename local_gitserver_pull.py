@@ -41,10 +41,13 @@ except KeyboardInterrupt:
 # Repo.commit("v0.1")
 # Repo.init(workdir)
 # Repo.index.add(workdir)
-#r.index.add([file_name])
-#r.index.commit("initial commit")
+# Repo.index.add([file_name])
+# Repo.index.commit("initial commit")
 
-#push
+##push
+# remote = Repo.create_remote('test', 'http://root@127.0.0.1/root/xxx.git')
+# origin = empty_repo.create_remote('origin', empty_repo.remotes['origin']
+# origin.push()
 #remote origin
 #add
 #init
