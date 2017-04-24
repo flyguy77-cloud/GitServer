@@ -5,7 +5,7 @@ from git import *
 import os, shutil
 
 try:
-   username = raw_input("Username [defaul=git]: ") or "git"
+   username = raw_input("Username [default=git]: ") or "git"
    workdir = raw_input("Workdir [default=/tmp]: ") or "/tmp"
    git_server = raw_input("Git Server [default=127.0.0.1]: ") or "127.0.0.1"
    project = raw_input("Projectname: ")
