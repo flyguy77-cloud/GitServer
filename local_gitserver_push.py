@@ -1,9 +1,9 @@
 #!/usr/bin/python
-## For pulling from local git server (HTTP)
+## Push to git server (HTTP)
 ##
 from git import Repo, repo
 import os, shutil
-#import os.path as osp
+# import os.path as osp
 
 try:
    username = raw_input("Username [default=git]: ") or "git"
