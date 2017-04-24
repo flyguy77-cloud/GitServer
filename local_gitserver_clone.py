@@ -1,5 +1,5 @@
 #!/usr/bin/python
-## For cloning from git server (HTTP)
+## Clone from git server (HTTP)
 ##
 from git import *
 import os, shutil
